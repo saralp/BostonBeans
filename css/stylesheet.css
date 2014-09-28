@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+  body {
+    background-image: url("../images/brick_background.jpg");
+    background-color: #FFF;
+    background-size: 100%;
+  }
+
+  .navbar-brand {
+    font-size:30px;
+  }
+		
+  header img {
+	  margin-bottom:20px;
+    opacity: 0.85;
+    filter: alpha(opacity=50);
+	}
+
+  
+  .center {
+    text-align:center;
+  }
+
+
+  
+  
+		
