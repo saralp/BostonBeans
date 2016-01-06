@@ -7,6 +7,7 @@
 	<meta charset="UTF-8">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/stylesheet.css" rel="stylesheet">
+    <link rel="shortcut icon" href="cupbean.ico">
     
 </head>
 
@@ -24,21 +25,33 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Boston Beans</a>
+          <a href="index.html">
+           <img src="images/boston_beans_logo.png" alt="Coffee Bean Cup Logo" style="width: 60%;">
+          
+          </a>
         </div>
     
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Shop</a></li>
-            <li class="active"><a href="sourcing.html">Sourcing</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="menu.html">Menu</a></li>
             <li><a href="http://justanotherbeaninboston.wordpress.com/" target="_blank">Blog</a></li>
+
+            <li class="dropdown">
+              <a href="sourcing.html" class="dropdown-toggle" data-toggle="dropdown">Sourcing</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="sourcing.html">Sourcing</a><li>
+                <li><a href="fair_trade.html">Fair Trade</a></li></ul>
+
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Our Story</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="our_story.html">Our Story</a></li>
+                <li><a href="location.html">Location</a></li>                
+                <li><a href="meet_our_baristas.html">Meet Our Baristas</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
               </ul>
             </li>
           </ul>
@@ -50,6 +63,7 @@
     
     <section id="sourcing">
       <div class="well well-lg"> <!-- big container -->
+        <h2>Sourcing</h2>
         <div class="panel panel-default">
           <div class="panel-body">
             <div class="media row">
